@@ -1,0 +1,120 @@
+{
+  "source_file": "SQL_Sales_Dataset_200_Rows.xlsx",
+  "rows": 200,
+  "columns": [
+    "order_id",
+    "customer_name",
+    "order_date",
+    "category",
+    "sub_category",
+    "product_name",
+    "quantity",
+    "unit_price",
+    "total_price",
+    "region"
+  ],
+  "duplicate_rows": 0,
+  "missing_values_total": 0,
+  "total_revenue": 2420107.0,
+  "average_order_value": 12100.535,
+  "unique_customers": 200,
+  "unique_orders": 200,
+  "category_revenue": [
+    {
+      "category": "Furniture",
+      "total_price": 714399
+    },
+    {
+      "category": "Grocery",
+      "total_price": 672147
+    },
+    {
+      "category": "Electronics",
+      "total_price": 549302
+    },
+    {
+      "category": "Clothing",
+      "total_price": 484259
+    }
+  ],
+  "sql_validation": {
+    "Revenue by Category": [
+      {
+        "category": "Furniture",
+        "total_revenue": 714399
+      },
+      {
+        "category": "Grocery",
+        "total_revenue": 672147
+      },
+      {
+        "category": "Electronics",
+        "total_revenue": 549302
+      },
+      {
+        "category": "Clothing",
+        "total_revenue": 484259
+      }
+    ],
+    "Top 10 Customers": [
+      {
+        "customer_name": "Lynn Garrison",
+        "order_count": 1,
+        "total_spend": 47940
+      },
+      {
+        "customer_name": "Debbie Turner",
+        "order_count": 1,
+        "total_spend": 44990
+      },
+      {
+        "customer_name": "Megan Charles",
+        "order_count": 1,
+        "total_spend": 44620
+      },
+      {
+        "customer_name": "Michelle Beltran",
+        "order_count": 1,
+        "total_spend": 42471
+      },
+      {
+        "customer_name": "Rick Sanford",
+        "order_count": 1,
+        "total_spend": 41211
+      },
+      {
+        "customer_name": "Patrick Watson",
+        "order_count": 1,
+        "total_spend": 37680
+      },
+      {
+        "customer_name": "Christopher Meyer",
+        "order_count": 1,
+        "total_spend": 37320
+      },
+      {
+        "customer_name": "Todd Barnes",
+        "order_count": 1,
+        "total_spend": 36152
+      },
+      {
+        "customer_name": "Stephanie Martinez",
+        "order_count": 1,
+        "total_spend": 34576
+      },
+      {
+        "customer_name": "Kimberly Alvarado",
+        "order_count": 1,
+        "total_spend": 31752
+      }
+    ],
+    "Average Order Value": [
+      {
+        "total_orders": 200,
+        "average_order_value": 12100.535,
+        "total_revenue": 2420107
+      }
+    ]
+  },
+  "note": "The uploaded source dataset contains no missing values or duplicate rows."
+}
